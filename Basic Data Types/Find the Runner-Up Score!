@@ -1,9 +1,0 @@
-n = int(input())
-
-list1 = list(map(int, input().split()))
-
-list2 = sorted(set(list1))
-
-print(list2[-2])
-
-
