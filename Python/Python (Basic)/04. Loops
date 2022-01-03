@@ -1,1 +1,12 @@
-aa
+if __name__ == '__main__':
+    n = int(input())
+    
+lista = []
+
+while n > 0:
+    n=n-1
+    lista.append(n**2)
+    
+for x in sorted(lista):
+    print(x, end='\n')
+    
