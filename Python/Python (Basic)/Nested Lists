@@ -1,1 +1,19 @@
-First exercise
+l = []
+scores = set()
+
+for i in range(int(input())):
+    name = str(input())
+    score = float(input())
+    l.append([name, score])
+    scores.add(score)
+
+second_score = sorted(scores)[1]
+
+second_scores_names = []
+
+for name, score in l:
+    if score == second_score:
+        second_scores_names.append(name)
+    
+for name in sorted(second_scores_names):
+    print(name, end='\n')
