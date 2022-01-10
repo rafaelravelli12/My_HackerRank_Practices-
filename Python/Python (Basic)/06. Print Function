@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+
+    n = int(input())
+
+
+    l = list(range(1,n+1))
+
+
+    string = ''.join(str(x) for x in l)
+
+
+    print(string)
+
+
