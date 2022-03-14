@@ -1,0 +1,11 @@
+thickness = int(input())
+c = '.'
+width = 3*thickness
+
+for i in range(thickness//2):
+    print((c*i).rjust(width//2,"-")+"."+(c*i).ljust(width//2,"-"))
+
+print("Welcome".center(width,"-"))
+
+for i in range(thickness//2):
+    print((c*i).rjust(width//2,"-")+"."+(c*i).ljust(width//2,"-"))
